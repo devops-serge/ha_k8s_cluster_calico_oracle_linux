@@ -1,0 +1,11 @@
+controller:
+  service:
+    type: NodePort
+    nodePorts:
+      http: "32231"
+      https: "32232"
+  metrics:
+    enabled: false
+    serviceMonitor:
+      enabled: false
+  replicaCount: 2
