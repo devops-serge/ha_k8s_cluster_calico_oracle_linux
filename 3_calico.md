@@ -50,6 +50,7 @@ spec:
   nodeToNodeMeshEnabled: true
   asNumber: 65535
   bindMode: NodeIP
+EOF
 ```
 
 5. Install [calicoctl](https://docs.tigera.io/calico/latest/operations/calicoctl/install#install-calicoctl-as-a-binary-on-a-single-host)
